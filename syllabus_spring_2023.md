@@ -3,8 +3,8 @@
 ----------
 
 Instructor:       Dr. Ming Ming Tan
+
 Email:               mtan@augusta.edu
- ****
 
 ## Course Description:
 
