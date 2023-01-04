@@ -14,3 +14,8 @@ Learning Outcomes: After taking this course, you will
 - Learn to derive properties/theorems needed for modern number-theoretic encryption schemes.
 - Gain exposure to the modern number-theoretic encryption schemes and their underlying assumptions.
 - Learn to formulate and understand the security properties given by the encryption schemes.
+
+Textbook
+- Cryptography: An Introduction (3rd Edition) by Nigel Smart.
+
+
