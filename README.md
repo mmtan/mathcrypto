@@ -14,7 +14,7 @@ Suggested Reference Books:
 - Introduction to Modern Cryptography by Jonathan Katz and Yehuda Lindell
 - An Introduction to Mathematical Cryptography  by Jeffrey Hoffstein, Jill Pipher, Joseph H. Silverman
 
-Syllabus: [spring 2023](/syllabus_spring_2023.pdf)
+Syllabus: [spring 2023](/syllabus_spring_2023.md)
 
 ---
 
