@@ -1,5 +1,5 @@
 # Mathematics Foundation of Cryptography
-Course website for Math Foundation of Cryptography 
+Course website for Math Foundation of Cryptography
 
 ---
 Instructor:  Dr. Ming Ming Tan
