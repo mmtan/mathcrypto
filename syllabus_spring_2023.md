@@ -16,6 +16,7 @@ Learning Outcomes: After taking this course, you will
 - Learn to derive properties/theorems needed for modern number-theoretic encryption schemes.
 - Gain exposure to the modern number-theoretic encryption schemes and their underlying assumptions.
 - Learn to formulate and understand the security properties given by the encryption schemes.
+
 ## Meeting Venue/Time
 
 | M W | 1430-1545 | Hull McKnight GA Cyber Center 2201 |
@@ -26,14 +27,19 @@ Learning Outcomes: After taking this course, you will
 - CSCI 3400 - Data Structures with a grade of C or better
 - CSCI 3030 - Mathematical Structures for Computer Science with a grade C or better
 - MATH 3280 - Linear Algebra with a grade C or better
+
+
 ## Textbook
 - Cryptography: An Introduction (3rd Edition) by Nigel Smart.
+
+
 ## Suggested Reference Books
 - Introduction to Modern Cryptography by Jonathan Katz and Yehuda Lindell
 - An Introduction to Mathematical Cryptography  by Jeffrey Hoffstein, Jill Pipher, Joseph H. Silverman
-## Class 
 
- Class will be conducted in face-to-face mode. Whether a given class is provided face-to-face in a traditional classroom environment, or online via WebEx or TEAMs, you are expected to attend. I expect you to be in class. I recognize the need to miss classes due to unforeseen circumstances. Missing class will miss content. You will need to make an effort to keep current on the material.
+
+## Class 
+Class will be conducted in face-to-face mode. Whether a given class is provided face-to-face in a traditional classroom environment, or online via WebEx or TEAMs, you are expected to attend. I expect you to be in class. I recognize the need to miss classes due to unforeseen circumstances. Missing class will miss content. You will need to make an effort to keep current on the material.
  
 **Note** The course delivery methodology may change at some point during the semester based on future CDC Georgia Department of Health guidelines. We may be forced to go temporarily or completely online to satisfy future health safety requirements. In the event this occurs, procedures outlined in the syllabus will be adjusted as necessary to accommodate the modified class environment.
 
