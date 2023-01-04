@@ -17,8 +17,9 @@ Learning Outcomes: After taking this course, you will
 - Gain exposure to the modern number-theoretic encryption schemes and their underlying assumptions.
 - Learn to formulate and understand the security properties given by the encryption schemes.
 ## Meeting Venue/Time
-| M W | 1430-1545 | Hull McKnight GA Cyber Center 2201 |
 
+| M W | 1430-1545 | Hull McKnight GA Cyber Center 2201 |
+|--|--|--|
  
 
 ## Prerequisites
@@ -55,7 +56,7 @@ Points are allotted for the following activities.
 | ----------------- | ------------------ |
 | Homework          | 50                 |
 | Midterm (1hr)     | 25                 |
-| Final.      (1hr) | 25                 |
+| Final      (1hr) | 25                 |
 
 ## Course Grade Scale
 | Total Points Earned | Final Grade |
@@ -69,10 +70,11 @@ Points are allotted for the following activities.
 ## Tentative Semester Schedule by week/topic 
 > The tentative schedule is subjected to changes throughout the semester.
 > Depending on the progress of the course, we might have to adjust the number of topics. 
-| Week 1 (Jan 9)                                | Syllabus review and introduction to classical shift ciphers                                |
-| --------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Week 2 (Jan 16) (No class on Jan 16) Jan 18   | Attacks on classical shift ciphers via frequency statistics                                |
-| Week 3 (Aug 29)                               | Abstract group definition and basic properties                                             |
+
+| Week 1 (Jan 9)                                | Syllabus review and introduction to classical shift cipher  |
+| --------------------------------------------- | --------------------- |
+| Week 2 (Jan 16) (No class on Jan 16) Jan 18   | Attacks on classical shift ciphers via frequency statistics |
+| Week 3 (Aug 29)                               | Abstract group definition and basic properties  |
 | Week 4 (Jan 23)                               | GCDs  and Isomorphism of groups                                                            |
 | Week 5 (Jan 30)                               | Review of discrete probability theory                                                      |
 | Week 6 (Feb 6)                                | The one time pad cryptosystems and various equivalent definitions of perfect secrecy       |
@@ -90,6 +92,7 @@ Points are allotted for the following activities.
 | Week 18 (May 1) (No class on May 3)           | Revision                                                                                   |
 
 Last Day of withdrawal: TBA
+
 Final Exam : THURS MAY 11 2-3 PM 
 
 ## Homework and Exams
