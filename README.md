@@ -1,4 +1,4 @@
-# Mathematics Foundation for Cryptography
+# Mathematics Foundation of Cryptography
 Course website for Math Foundation of Cryptography 
 
 ---
