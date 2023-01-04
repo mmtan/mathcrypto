@@ -1,2 +1,2 @@
 # mathcrypto
-Course website Math Foundation of Cryptography 
+Course website for Math Foundation of Cryptography 
