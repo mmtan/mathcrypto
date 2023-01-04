@@ -21,7 +21,8 @@ Syllabus: [spring 2023](/syllabus_spring_2023.pdf)
 
 ## Schedule and references
 Monday (01/09/23): Introduction to classical ciphers
- * References: 
+ * References : 
+ * Problem sets: 
 
 
 
