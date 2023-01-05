@@ -18,9 +18,7 @@ Learning Outcomes: After taking this course, you will
 - Learn to formulate and understand the security properties given by the encryption schemes.
 
 ## Meeting Venue/Time
-
-| M W | 1430-1545 | Hull McKnight GA Cyber Center 2201 |
-|--|--|--|
+Mon, Wed 1430-1545 Hull McKnight GA Cyber Center 2201
  
 
 ## Prerequisites
@@ -65,6 +63,7 @@ Points are allotted for the following activities.
 | Final      (1hr) | 25                 |
 
 ## Course Grade Scale
+
 | Total Points Earned | Final Grade |
 | ------------------- | ----------- |
 | 90-100              | A           |
