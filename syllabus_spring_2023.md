@@ -28,10 +28,10 @@ Mon, Wed 1430-1545 Hull McKnight GA Cyber Center 2201
 
 
 ## Textbook
-- Cryptography: An Introduction (3rd Edition) by Nigel Smart.
-
+- An Introduction to Mathematical Cryptography by Jeffrey Hoffstein, Jill Pipher, Joseph H. Silverman
 
 ## Suggested Reference Books
+- Cryptography: An Introduction (3rd Edition) by Nigel Smart
 - Introduction to Modern Cryptography by Jonathan Katz and Yehuda Lindell
 - An Introduction to Mathematical Cryptography  by Jeffrey Hoffstein, Jill Pipher, Joseph H. Silverman
 
