@@ -23,7 +23,15 @@ Syllabus: [spring 2023](/syllabus_spring_2023.md)
 Monday (01/09/23): Introduction to classical ciphers
  * References : Textbook Section 1.1, 1.2, 1.3, 1.7.1, 2.5
  * Notes: [Part 1](/Part1.pdf)
- * Problem sets: TBA
+ * Problem sets: NA
+ * Content: shift cipher, the concept of divides and remainder, modular arithmetic, set of remainder modulo n
+ 
+Wednesday (01/09/23): Introduction to classical ciphers
+ * References : Textbook Section 1.1, 1.2, 1.3, 1.7.1, 2.5
+ * Notes: [Part 1](/Part1.pdf)
+ * Problem sets: [Homework 1](/homework1.pdf)
+ * Content: group, closure, identity element, inverse element, associativity, finite vs infinite group, abelian vs non-abelian group, order of group, operation table, direct product, isomorphism.
+ 
 
 
 
