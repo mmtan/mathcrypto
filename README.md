@@ -26,7 +26,7 @@ Monday (01/09/23): Introduction to classical ciphers
  * Problem sets: NA
  * Content: shift cipher, the concept of divides and remainder, modular arithmetic, set of remainder modulo n
  
-Wednesday (01/09/23): Introduction to classical ciphers
+Wednesday (01/09/23): Introduction to group
  * References : Textbook Section 1.1, 1.2, 1.3, 1.7.1, 2.5
  * Notes: [Lecture 2](/lec2.pdf)
  * Problem sets: [Homework 1](/homework1.pdf)
