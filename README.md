@@ -33,16 +33,16 @@ Wednesday (01/09/23): Introduction to group
  * Content: group, closure, identity element, inverse element, associativity, finite vs infinite group, abelian vs non-abelian group, order of group, operation table, direct product, isomorphism.
  
 Monday (01/23/23): Discussion on Homework 1
+
 Through the homework problems, we observed: 
 * Given a group G, the identity of G is unique. For all g in G, the inverse of g is unique too. 
 * If f is isomorphism map between groups G and H, then f maps identity of G to the identity of H.
 * Suppose f is isomorphism map between groups G and H. If g_inverse is the inverse of g in G, then f(g_inverse) is the inverse of f(g) in H. 
 * $(Z_n, +)$ is a group
 * $(Z_n, .)$ is not a group because 0 is in $Z_n$ and 0 has no inverse. 0 can't be the identity because 0.a = 0 for all a in $Z_n$.
-* We observe that $(Z_n\setminus \{0\}, .)$ is not a group unless n is prime. 
-* We observe that $(Z_n^\*, .)$ a group where $Z_n^* = \{a \in Z_n | gcd(a,n)=1\}$. 
+* We observe that $(Z_n \text{without 0}, .)$ is not a group unless n is prime. 
+* We observe that $(Z_n^\*, .)$ a group where $Z_n^*$ is the set of all integers in $Z_n$ that has no common divisors with $n$. 
 * We observe that $(Z_{mn}, .)$ is isomorphic to $Z_m \times Z_n$ if and only if $gcd(m,n)=1$. 
-
 
 
 
