@@ -43,5 +43,8 @@ Monday (01/23/23): Discussion on Homework 1
   * We observe that $(Z_n^\*, .)$ a group where $Z_n^*$ is the set of all integers in $Z_n$ that has no common divisors with $n$. 
   * We observe that $(Z_{mn}, .)$ is isomorphic to $Z_m \times Z_n$ if and only if $gcd(m,n)=1$. 
 
-
-
+Wednesday (01/30/23): Order of group element, cyclic group, and gcd
+ * References : Textbook Section 
+ * Notes: [Lecture 2](/lec2.pdf)
+ * Problem sets: [Homework 1](/homework1.pdf)
+ * Content: 
