@@ -41,10 +41,18 @@ Monday (01/23/23): Discussion on Homework 1
   * $(Z_n, .)$ is not a group because 0 is in $Z_n$ and 0 has no inverse. 0 can't be the identity because 0.a = 0 for all a in $Z_n$.
   * We observe that $(Z_n \text{without 0}, .)$ is not a group unless n is prime. 
   * We observe that $(Z_n^\*, .)$ a group where $Z_n^*$ is the set of all integers in $Z_n$ that has no common divisors with $n$. 
-  * We observe that $(Z_{mn}, .)$ is isomorphic to $Z_m \times Z_n$ if and only if $gcd(m,n)=1$. 
+  * We observe that $(Z_{mn}, +)$ is isomorphic to $Z_m \times Z_n$ (under addition) if and only if $gcd(m,n)=1$. 
 
-Wednesday (01/30/23): Order of group element, cyclic group, and gcd
- * References : Textbook Section 
- * Notes: [Lecture 2](/lec2.pdf)
- * Problem sets: [Homework 1](/homework1.pdf)
- * Content: 
+Wednesday (01/30/23): Order of group element, cyclic group, and euler tortient function
+ * References : Textbook Section 2.5
+ * Notes: [Lecture 3](/lec3.pdf)
+ * Problem sets: [Homework 3](/homework3.pdf)
+ * Content:
+   * order of group elements is finite if the group is finite
+   * isomorphism preserves the order of group elements
+   * Given a group element $g$ with order $d$. If $g^f$ is the identity then $f$ must be a multiple of $d$. 
+   * Lagrange: The order of a group element is a divisor of the order of the group. 
+   * Informal introduction to Chinese Remainder Theorem: The map $f$ from $Z_{mn}$ to $Z_m \times Z_n$ where $m$ and $n$ are coprime defined as follows: 
+   $f(x) = (x \bmod m, x \bmod n)$ is a a bijective map. 
+   * Euler tortient function $\phi(n)$ is the number of positive integer less than $n$ that is coprime to $n$. 
+
