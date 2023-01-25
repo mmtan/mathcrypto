@@ -1,3 +1,4 @@
 title: Mathematics Foundation of Cryptography
 description: School of Computer and Cyber Sciences, Augusta University
 theme: jekyll-theme-cayman
+usemathjax : true
