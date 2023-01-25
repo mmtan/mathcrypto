@@ -46,7 +46,7 @@ Monday (01/23/23): Discussion on Homework 1
 Wednesday (01/30/23): Order of group element, cyclic group, and euler tortient function
  * References : Textbook Section 2.5
  * Notes: [Lecture 3](/lec3.pdf)
- * Problem sets: [Homework 3](/homework3.pdf)
+ * Problem sets: [Homework 2](/homework2.pdf)
  * Content:
    * order of group elements is finite if the group is finite
    * isomorphism preserves the order of group elements
