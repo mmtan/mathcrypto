@@ -59,7 +59,7 @@ Wednesday (01/25/23): Order of group element, cyclic group, and euler tortient f
 Monday (01/30/23): Chinese Remainder theorem and Discussion on Homework 2
  * References : Textbook Section 2.8
  * Notes: [Lecture 3](/lec3.pdf) (updated with the proofs for Chinese Remainder Theorem)
- * Homework Discussion: [Homework 2 Discussion](/homework 2_discussion.pdf)
+ * Homework Discussion: [Homework 2 Discussion](/homework2_discussion.pdf)
  * Content:
    * Warm up: Prove that any element $g$ in a finite group $G$ satisfies $g^|G| = e$. That is, any group element, operates on itself |G| times will lead to identity.
    * Formal proofs to Chinese Remainder Theorem. 
