@@ -26,7 +26,7 @@ Monday (01/09/23): Introduction to classical ciphers
  * Problem sets: NA
  * Content: shift cipher, the concept of divides and remainder, modular arithmetic, set of remainder modulo n
  
-Wednesday (01/09/23): Introduction to group
+Wednesday (01/18/23): Introduction to group
  * References : Textbook Section 1.1, 1.2, 1.3, 1.7.1, 2.5
  * Notes: [Lecture 2](/lec2.pdf)
  * Problem sets: [Homework 1](/homework1.pdf)
@@ -43,7 +43,7 @@ Monday (01/23/23): Discussion on Homework 1
   * We observe that $(Z_n^\*, .)$ a group where $Z_n^*$ is the set of all integers in $Z_n$ that has no common divisors with $n$. 
   * We observe that $(Z_{mn}, +)$ is isomorphic to $Z_m \times Z_n$ (under addition) if and only if $gcd(m,n)=1$. 
 
-Wednesday (01/30/23): Order of group element, cyclic group, and euler tortient function
+Wednesday (01/25/23): Order of group element, cyclic group, and euler tortient function
  * References : Textbook Section 2.5
  * Notes: [Lecture 3](/lec3.pdf)
  * Problem sets: [Homework 2](/homework2.pdf)
@@ -55,4 +55,17 @@ Wednesday (01/30/23): Order of group element, cyclic group, and euler tortient f
    * Informal introduction to Chinese Remainder Theorem: The map $f$ from $Z_{mn}$ to $Z_m \times Z_n$ where $m$ and $n$ are coprime defined as follows: 
    $f(x) = (x \bmod m, x \bmod n)$ is a a bijective map. 
    * Euler tortient function $\phi(n)$ is the number of positive integer less than $n$ that is coprime to $n$. 
+
+Monday (01/30/23): Chinese Remainder theorem and Discussion on Homework 2
+ * References : Textbook Section 2.8
+ * Notes: [Lecture 3](/lec3.pdf) (updated with the proofs for Chinese Remainder Theorem)
+ * Homework Discussion: [Homework 2 Discussion](/homework 2_discussion.pdf)
+ * Content:
+   * Warm up: Prove that any element $g$ in a finite group $G$ satisfies $g^|G| = e$. That is, any group element, operates on itself |G| times will lead to identity.
+   * Formal proofs to Chinese Remainder Theorem. 
+   * Revise the definitions of a function being one-to-one/injective and onto/surjective.
+   * If a function $f$ maps a set $X$ to $Y$ such that $f$ is one-to-one and that $|X|$ equals $|Y|$, then $f$ is onto. 
+   * Euler tortient function is multiplicative: $\phi(pq) = \phi(p)\phi(q)$ when $p$ and $q$ are coprimes. This can be seen as a consequence of Chinese Remainder Theorem. 
+   * The formula for Euler tortient function for arbitrary integer $n$. 
+
 
