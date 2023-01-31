@@ -61,7 +61,7 @@ Monday (01/30/23): Chinese Remainder theorem and Discussion on Homework 2
  * Notes: [Lecture 3](/lec3.pdf) (updated with the proofs for Chinese Remainder Theorem)
  * Homework Discussion: [Homework 2 Discussion](/homework2_discussion.pdf)
  * Content:
-   * Warm up: Prove that any element $g$ in a finite group $G$ satisfies $g^{|G|} = e$. That is, any group element, operates on itself |G| times will lead to identity.
+   * Warm up: Prove that any element $g$ in a finite group $G$ satisfies $g^{|G|} = e$. That is, any group element, operates on itself $|G|$ times will lead to identity.
    * Formal proofs to Chinese Remainder Theorem. 
    * Revise the definitions of a function being one-to-one/injective and onto/surjective.
    * If a function $f$ maps a set $X$ to $Y$ such that $f$ is one-to-one and that $|X|$ equals $|Y|$, then $f$ is onto. 
