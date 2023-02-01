@@ -71,7 +71,7 @@ Monday (01/30/23): Chinese Remainder theorem and Discussion on Homework 2
 
 Wednesday (02/01/23): Euclidean algorithm, prime factorization, multiplicative inverse
  * References : Textbook Section 1.2, 1.4
- * Notes: [Lecture 4](/lec4.pdf) (updated with the proofs for Chinese Remainder Theorem)
+ * Notes: [Lecture 4](/lec4.pdf)
  * Homework Discussion: [Homework 3](/homework3.pdf)
  * Content:
    * Greatest common divisors
