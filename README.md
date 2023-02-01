@@ -69,3 +69,12 @@ Monday (01/30/23): Chinese Remainder theorem and Discussion on Homework 2
    * The formula for Euler tortient function for arbitrary integer $n$. 
 
 
+Wednesday (02/01/23): Euclidean algorithm, prime factorization, multiplicative inverse
+ * References : Textbook Section 1.2, 1.4
+ * Notes: [Lecture 4](/lec4.pdf) (updated with the proofs for Chinese Remainder Theorem)
+ * Homework Discussion: [Homework 3](/homework3.pdf)
+ * Content:
+   * Greatest common divisors
+   * Euclidean algorithm 
+   * Unique prime factorizations
+   * Mulitplicative inverse
