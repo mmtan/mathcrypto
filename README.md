@@ -82,7 +82,7 @@ Wednesday (02/01/23): Euclidean algorithm, prime factorization, multiplicative i
 Monday (02/06/23): Discussion on Homework 3, Analysis of the running time on Euclidean algorithm
  * References : Textbook Section 1.2, 1.4
  * Notes: [Lecture 5](/lec5.pdf)
- * Homework: [Homework 3](/homework3.pdf)
+ * Homework: [Homework 3 partial solution](/homework3discussion.pdf)
  * Content:
    * Running time of algorithm: How long it takes to solve the problem in terms of size of the input. We measure the size of the input by its number of bits. 
    * Notion of linear, quadratic, polynomial and exponential algorithm. 
