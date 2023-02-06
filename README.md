@@ -72,9 +72,18 @@ Monday (01/30/23): Chinese Remainder theorem and Discussion on Homework 2
 Wednesday (02/01/23): Euclidean algorithm, prime factorization, multiplicative inverse
  * References : Textbook Section 1.2, 1.4
  * Notes: [Lecture 4](/lec4.pdf)
- * Homework Discussion: [Homework 3](/homework3.pdf)
+ * Homework: [Homework 3](/homework3.pdf)
  * Content:
    * Greatest common divisors
    * Euclidean algorithm 
    * Unique prime factorizations
    * Mulitplicative inverse
+
+Monday (02/06/23): Discussion on Homework 3, Analysis of the running time on Euclidean algorithm
+ * References : Textbook Section 1.2, 1.4
+ * Notes: [Lecture 5](/lec5.pdf)
+ * Homework: [Homework 3](/homework3.pdf)
+ * Content:
+   * Running time of algorithm: How long it takes to solve the problem in terms of size of the input. We measure the size of the input by its number of bits. 
+   * Notion of linear, quadratic, polynomial and exponential algorithm. 
+   * Prove that Euclidean algorithm for finding gcd(a,b) where $a \geq b$ has running time of $O(\log b)$ which is linear in the number of bits of hte input $b$.
