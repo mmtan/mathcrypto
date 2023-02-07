@@ -86,7 +86,7 @@ Monday (02/06/23): Discussion on Homework 3, Analysis of the running time on Euc
  * Content:
    * Running time of algorithm: How long it takes to solve the problem in terms of size of the input. We measure the size of the input by its number of bits. 
    * Notion of linear, quadratic, polynomial and exponential algorithm. 
-   * Prove that Euclidean algorithm for finding gcd(a,b) where $a \geq b$ has running time of $O(\log b)$ which is linear in the number of bits of hte input $b$.
+   * Prove that Euclidean algorithm for finding gcd(a,b) where $a \geq b$ has running time of $O(\log b)$ which is linear in the number of bits of the input $b$.
    
 Wednesday (04/06/23): Efficient algorithm for Modular Exponentiation, The Discrete Logarithm Problem (DLP)
  * References : Textbook Section 1.3.2
