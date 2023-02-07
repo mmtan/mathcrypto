@@ -90,7 +90,7 @@ Monday (02/06/23): Discussion on Homework 3, Analysis of the running time on Euc
    
 Wednesday (04/06/23): Efficient algorithm for Modular Exponentiation, The Discrete Logarithm Problem (DLP)
  * References : Textbook Section 1.3.2
- * Notes: [Lecture 6](/lec6.pdf)
+ * Notes: [Lecture 5](/lec5.pdf) (updated)
  * Homework: [Homework 4](/homework4.pdf)
  * Content:
    * 
