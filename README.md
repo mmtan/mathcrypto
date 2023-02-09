@@ -96,7 +96,7 @@ Wednesday (04/06/23): Efficient algorithm for Modular Exponentiation, The Discre
  * Content:
    * Modular exponentiation using square and multiply method. 
    * Introduce the Discrete Logarithm Problem (DLP). Given $g, h$ in $G$, solve for $x$ such that $g^x = h$.
-   * Hardness of DLP depends on the group strucutre. In particular, in $Z_n$ with + operation, DLP is easy. In $Z_n^*$ with * operation, DLP is known to be a hard problem. 
+   * Hardness of DLP depends on the group strucutre. In particular, in $Z_n$ with + operation, DLP is easy. In $Z_n^\*$ with $\*$ operation, DLP is known to be a hard problem. 
    * Trivial running and space complexity using brute-force method to solve DLP: O(N) steps and O(1) space where N is the order of $g$. 
    * Running and space complexity using Baby-step-Giant-step (trading time with space): $O(\sqrt{N}\log N)$ steps and $O(\sqrt{N})$ space. 
    
