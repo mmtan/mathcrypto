@@ -86,11 +86,17 @@ Monday (02/06/23): Discussion on Homework 3, Analysis of the running time on Euc
  * Content:
    * Running time of algorithm: How long it takes to solve the problem in terms of size of the input. We measure the size of the input by its number of bits. 
    * Notion of linear, quadratic, polynomial and exponential algorithm. 
+   * Hardness of a problem based on running time. 
    * Prove that Euclidean algorithm for finding gcd(a,b) where $a \geq b$ has running time of $O(\log b)$ which is linear in the number of bits of the input $b$.
    
 Wednesday (04/06/23): Efficient algorithm for Modular Exponentiation, The Discrete Logarithm Problem (DLP)
  * References : Textbook Section 1.3.2
- * Notes: [Lecture 5](/lec5.pdf) (updated)
+ * Notes: [Lecture 5](/lec5.pdf) [Lecture 6](/lec6.pdf)
  * Homework: [Homework 4](/homework4.pdf)
  * Content:
-   * 
+   * Modular exponentiation using square and multiply method. 
+   * Introduce the Discrete Logarithm Problem (DLP). Given $g, h$ in $G$, solve for $x$ such that $g^x = h$.
+   * Hardness of DLP depends on the group strucutre. In particular, in $\Z_n$ with + operation, DLP is easy. In $\Z_n^*$ with * operation, DLP is known to be a hard problem. 
+   * Trivial running and space complexity using brute-force method to solve DLP: O(N) steps and O(1) space where N is the order of $g$. 
+   * Running and space complexity using Baby-step-Giant-step (trading time with space): $O(\sqrt(N)\log N)$ steps and $O(\sqrt(n))$ space. 
+   
