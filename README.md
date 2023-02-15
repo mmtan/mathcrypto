@@ -89,9 +89,9 @@ Monday (02/06/23): Discussion on Homework 3, Analysis of the running time on Euc
    * Hardness of a problem based on running time. 
    * Prove that Euclidean algorithm for finding gcd(a,b) where $a \geq b$ has running time of $O(\log b)$ which is linear in the number of bits of the input $b$.
    
-Wednesday (04/06/23): Efficient algorithm for Modular Exponentiation, The Discrete Logarithm Problem (DLP)
+Wednesday (02/08/23): Efficient algorithm for Modular Exponentiation, The Discrete Logarithm Problem (DLP), Baby-step-Giant-step algorithm to solve DLP
  * References : Textbook Section 1.3.2
- * Notes: [Lecture 5](/lec5.pdf) [Lecture 6](/lec6.pdf)
+ * Notes: [Lecture 6](/lec6.pdf)
  * Homework: [Homework 4](/homework4.pdf)
  * Content:
    * Modular exponentiation using square and multiply method. 
@@ -100,3 +100,21 @@ Wednesday (04/06/23): Efficient algorithm for Modular Exponentiation, The Discre
    * Trivial running and space complexity using brute-force method to solve DLP: O(N) steps and O(1) space where N is the order of $g$. 
    * Running and space complexity using Baby-step-Giant-step (trading time with space): $O(\sqrt{N}\log N)$ steps and $O(\sqrt{N})$ space. 
    
+Monday (02/13/23): Diffie-Hellman key exchange protocol, Fermat little theorem, Pohlig-Hellman algorithm
+ * References : Textbook Section 2.3, Theorem 1.24, Section 2.9
+ * Notes: [Lecture 7](/lec7.pdf) 
+ * Homework: [Homework 4](/homework4.pdf)
+ * Content:
+   * Diffie-Hellman Key Exchange Protocol
+   * Fermat's little theorem
+   * Properties of $ord(g)$ when $g \in Z_p^*$. 
+   * Pohlig-Hellman algorithm: Reduces the problem of solving Discrete Logarithm Problem of order g being aribitray order to order g being prime power. 
+   * Safe prime
+   
+Wednesday (02/15/23): Primality Testing
+ * References : Textbook Section 3.4
+ * Notes: [Lecture 8](/lec8.pdf) 
+ * Homework: [Homework 5](/homework5.pdf)
+ * Content:
+   * Fermat's little test
+   * Miller-Rabin's test 
