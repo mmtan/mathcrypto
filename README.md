@@ -106,15 +106,19 @@ Monday (02/13/23): Diffie-Hellman key exchange protocol, Fermat little theorem, 
  * Homework: [Homework 4](/homework4.pdf)
  * Content:
    * Diffie-Hellman Key Exchange Protocol
-   * Fermat's little theorem
+   * Fermat's little theorem: Let $p$ be prime. Then $a^{p-1} = 1 \bmod{p}$ for all integer $a$ coprime to $p$.
    * Properties of $ord(g)$ when $g \in Z_p^*$. 
    * Pohlig-Hellman algorithm: Reduces the problem of solving Discrete Logarithm Problem of order g being aribitray order to order g being prime power. 
-   * Safe prime
+   * Pohlig-Hellman algorithm implies that the discrete logarithm problem is easy to solve when the order of $g$ is a product of small prime powers. 
+   * Diffie-Hellman key exchange protocol requires safe prime $p$ (such that $p-1 = 2q$ where $q$ is a prime). 
+  
    
 Wednesday (02/15/23): Primality Testing
  * References : Textbook Section 3.4
  * Notes: [Lecture 8](/lec8.pdf) 
  * Homework: [Homework 5](/homework5.pdf)
  * Content:
-   * Fermat's little test
+  * Primality testing: Checking whether an integer is a prime. This problm is easy to solve. There exits a polynomial deterministic algorithm. 
+  * However, in practice, we use probabilistic algorithm that is more efficient and with low error rate. 
+   * Fermat's little test 
    * Miller-Rabin's test 
