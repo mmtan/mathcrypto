@@ -122,3 +122,14 @@ Wednesday (02/15/23): Primality Testing
    * However, in practice, we use probabilistic algorithm that is more efficient and with low error rate. 
     * Fermat's little test 
     * Miller-Rabin's test 
+
+Monday (02/20/23): Prime distribution
+ * References : Textbook Section 3.4
+ * Notes: [Lecture 9](/lec9.pdf) 
+ * Homework: [Homework 5](/homework5.pdf)
+ * Content:
+   * Analysis of Miller-Rabin's test
+   * Distribution of primes
+   * Use Miller-Rabin's test to generate large prime
+
+
