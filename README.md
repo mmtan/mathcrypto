@@ -126,7 +126,6 @@ Wednesday (02/15/23): Primality Testing
 Monday (02/20/23): Prime distribution
  * References : Textbook Section 3.4
  * Notes: [Lecture 9](/lec9.pdf) 
- * Homework: [Homework 5](/homework5.pdf)
  * Content:
    * Analysis of Miller-Rabin's test
    * Distribution of primes
