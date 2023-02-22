@@ -103,7 +103,6 @@ Wednesday (02/08/23): Efficient algorithm for Modular Exponentiation, The Discre
 Monday (02/13/23): Diffie-Hellman key exchange protocol, Fermat little theorem, Pohlig-Hellman algorithm
  * References : Textbook Section 2.3, Theorem 1.24, Section 2.9
  * Notes: [Lecture 7](/lec7.pdf) 
- * Homework: [Homework 4](/homework4.pdf)
  * Content:
    * Diffie-Hellman Key Exchange Protocol
    * Fermat's little theorem: Let $p$ be prime. Then $a^{p-1} = 1 \bmod{p}$ for all integer $a$ coprime to $p$.
