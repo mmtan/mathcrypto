@@ -136,7 +136,8 @@ Wednesday (02/22/23): Homework 5 discussion
  * Homework: [Homework 6](/homework6.pdf)
  * Content:
   * Proof of Pohlig-Hellman algorithm
-  * Checking if an element $g$ is a generator without having to generate $g^i$ for all $i$. Instead write $p-1 = q_1 q_2 \ldots q_n$ where $q_i$s are distinct prime powers and check if $g^\frac{p-1}{q_i} \neq 1$ for all $i$. 
+  * Checking if an element $g$ is a generator without having to generate $g^i$ for all $i$. 
+  * Instead write $p-1 = q_1 q_2 \ldots q_n$ where $q_i$s are distinct prime powers and check if $g^\frac{p-1}{q_i} \neq 1$ for all $i$. 
   * Recap: Fermat's little theorem: If $p$ is prime, then 
        * for all integers $a$ coprime to $p$, we have $a^{p-1} \equiv 1 \bmod{p}$. 
        * for all integers $a$, we have $a^p \equiv 1 \bmod{p}$. 
