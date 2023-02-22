@@ -132,4 +132,11 @@ Monday (02/20/23): Prime distribution
    * Distribution of primes
    * Use Miller-Rabin's test to generate large prime
 
+Wednesday (02/22/23): Homework 5 discussion 
+ * References : Textbook Section 3.4
+ * Notes: [Lecture 9](/lec9.pdf) 
+ * Homework: [Homework 6](/homework6.pdf)
+ * Content:
+  
+
 
