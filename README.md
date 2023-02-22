@@ -140,7 +140,7 @@ Wednesday (02/22/23): Homework 5 discussion
   * Recap: Fermat's little theorem: If $p$ is prime, then 
        * for all integers $a$ coprime to $p$, we have $a^{p-1} \equiv 1 \bmod{p}$. 
        * for all integers $a$, we have $a^p \equiv 1 \bmod{p}$. 
-  * Recap: A Carmichael number $n$ is a composite integer such that $a^n \eqiuiv a \bmod{n}$. Hence, Fermat little test on input $n$ will output that $n$ is probably prime but $n$ is not a prime. 
+  * Recap: A Carmichael number $n$ is a composite integer such that $a^n \equiv a \bmod{n}$. Hence, Fermat little test on input $n$ will output that $n$ is probably prime but $n$ is not a prime. 
   * Self-practice exercises: Prove that if $n$ is a Carmichael number then $n$ is a product of disctinct primes. 
   
 
