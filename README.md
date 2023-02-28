@@ -144,4 +144,8 @@ Wednesday (02/22/23): Homework 5 discussion
   * Self-practice exercises: Prove that if $n$ is a Carmichael number then $n$ is a product of disctinct primes. 
   
 
+Monday (02/27/23): Homework 6 discussion 
+ * References : Textbook Section 3.4
+ * Notes: [homeework6disccusion](/homework6discussion.pdf)
+
 
