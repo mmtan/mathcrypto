@@ -148,4 +148,7 @@ Monday (02/27/23): Homework 6 discussion
  * References : Textbook Section 3.4
  * Notes: [homeework6disccusion](/homework6discussion.pdf)
 
+Wednesday (03/01/23): Midterm Q&A
+ * Notes: [Midterm Q&A](/midtermQA.pdf)
+
 
