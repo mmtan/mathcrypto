@@ -166,7 +166,8 @@ Monday, Wednesday (03/13/23, 03/16/23): RSA
  * An overview of RSA cryptosystem. 
  * If factoring of integers is easy, then RSA is insecure. The reverse is not known. 
  * RSA in practice: 
-  * Using CHR for encryption and decryption. 
-  * Selecting the encryption and decryption exponenet. 
-  * Textbook/plain RSA vs Padded RSA. 
+   * Using Euler formula for encryption and decryption 
+   * Using CHR for encryption and decryption. 
+   * Selecting the encryption and decryption exponenet. 
+   * Textbook/plain RSA vs Padded RSA. 
 
