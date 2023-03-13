@@ -161,7 +161,7 @@ Monday/Wednesday (03/06/23, 03/09/23): Midterm and Midterm discussion
 Monday, Wednesday (03/13/23, 03/16/23): RSA
 * References : Textbook Section 3.2
 * Notes: [Lecture 10](/lec10.pdf)
-* Homework: [homeework7](/homework7.pdf)
+* Homework: [homework7](/homework7.pdf)
 * Content:
  * An overview of RSA cryptosystem. 
  * If factoring of integers is easy, then RSA is insecure. The reverse is not known. 
