@@ -152,7 +152,7 @@ Wednesday (03/01/23): Midterm Q&A
  * Notes: [Midterm Q&A](/midtermQA.pdf)
 
 Monday/Wednesday (03/06/23, 03/09/23): Midterm and Midterm discussion
-* Notes: [Midterm](/midterm.pdf)
+* Notes: [Midterm discussion](/midterm_discussion.pdf)
 * Euler Formula
 * $Z_{pq}^*$ where $p$ and $q$ are odd primes, can't be cyclic. 
 * Integers which are squares can't be a generator. 
