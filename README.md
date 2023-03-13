@@ -153,8 +153,20 @@ Wednesday (03/01/23): Midterm Q&A
 
 Monday/Wednesday (03/06/23, 03/09/23): Midterm and Midterm discussion
 * Notes: [Midterm discussion](/midterm_discussion.pdf)
-* Euler Formula
-* $Z_{pq}^*$ where $p$ and $q$ are odd primes, can't be cyclic. 
-* Integers which are squares can't be a generator. 
+* Content:
+ * Euler Formula
+ * $Z_{pq}^*$ where $p$ and $q$ are odd primes, can't be cyclic. 
+ * Integers which are squares can't be a generator. 
 
+Monday, Wednesday (03/13/23, 03/16/23): RSA
+* References : Textbook Section 3.2
+* Notes: [Lecture 10](/lec10.pdf)
+* Homework: [homeework7](/homework7.pdf)
+* Content:
+ * An overview of RSA cryptosystem. 
+ * If factoring of integers is easy, then RSA is insecure. The reverse is not known. 
+ * RSA in practice: 
+  * Using CHR for encryption and decryption. 
+  * Selecting the encryption and decryption exponenet. 
+  * Textbook/plain RSA vs Padded RSA. 
 
