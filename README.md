@@ -169,5 +169,10 @@ Monday, Wednesday (03/13/23, 03/16/23): RSA
    * Using Euler formula for encryption and decryption 
    * Using CHR for encryption and decryption. 
    * Selecting the encryption and decryption exponenet. 
+     * small decryption exponent leads to brute force attack. 
+     * small encryption eponent wil small message size leads to attack via solving $e$-th root of the ciphtertext over integers, without the modulo $N$. 
    * Textbook/plain RSA vs Padded RSA. 
+     * Plain RSA is deterministic. This raises security concern. For example, if adversary just need to know if a message sent to Alice is $m$, he/she just need to compare the ciphertext intercepted with the ciphertext $m^e \bmod{N}$ where $(N,e)$ are public key of Alice. 
+     * Padded RSA embed messages in random string before encryption. 
+ 
 
