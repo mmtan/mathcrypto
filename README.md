@@ -181,7 +181,7 @@ Monday (03/20/23): RSA
 * Content:
   * Explore the condition where $gcd(e,p-1)$ is not 1 to the solution to $x^{e}\equiv c \bmod{p}$: either the congruence has no solution or has more than one solution (in particular, $gcd(e,p-1)$ distinct solutions). 
   * Informally, we look at the notion of quadratic residues modulo odd prime $p$. The congruence $x^2 \equiv c \bmod{p}$ has no solution when $c$ is not a quadratic residue modulo $p$ and it has exactly $2$ solutions when $c$ is a quadratic residue modulo $p$. 
-  * The set of quadratic residue modulo $p$ has $\frac{p-1}{2}$ elements. 
+  * This means that the set of quadratic residue modulo $p$ has $\frac{p-1}{2}$ elements. 
   * An example of "misuse" of RSA: Use the same modulus N to send the same message. 
   * Explore the following variant of RSA: Double encryption RSA and Multiprime RSA
   * Complexity theoretic reductions from one problem to another:  
