@@ -175,4 +175,20 @@ Monday, Wednesday (03/13/23, 03/16/23): RSA
      * Plain RSA is deterministic. This raises security concern. For example, if adversary just need to know if a message sent to Alice is $m$, he/she just need to compare the ciphertext intercepted with the ciphertext $m^e \bmod{N}$ where $(N,e)$ are public key of Alice. 
      * Padded RSA embed messages in random string before encryption. 
  
+Monday (03/20/23): RSA
+* References : Textbook Section 3.2
+* Notes: [homework7discussion](/homework7discussion.pdf)
+* Content:
+  * Explore the condition where $gcd(e,p-1)$ is not 1 to the solution to $x^{e}\equiv c \bmod{p}$: either the congruence has no solution or has more than one solution (in particular, $gcd(e,p-1)$ distinct solutions). 
+  * Informally, we look at the notion of quadratic residues modulo odd prime $p$. The congruence $x^2 \equiv c \bmod{p}$ has no solution when $c$ is not a quadratic residue modulo $p$ and it has exactly $2$ solutions when $c$ is a quadratic residue modulo $p$. 
+  * The set of quadratic residue modulo $p$ has $\frac{p-1}{2}$ elements. 
+  * An example of "misuse" of RSA: Use the same modulus N to send the same message. 
+  * Explore the following variant of RSA: Double encryption RSA and Multiprime RSA
+  * Complexity theoretic reductions from one problem to another:  
+     *  RSA problem is no harder than Factoring. The reverse is not known. 
+     *  Diffie-Hellman is no harder than Discrete Logarithm. The reverse is true for some groups. 
+     *  (Next week) SquareRoot is no harder than Factoring. Factoring is no harder than SquareRoot. Hence, the Factoring and SquareRoot problems are polynomial-time equivalent. 
 
+
+    
+   
