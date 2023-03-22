@@ -161,7 +161,7 @@ Monday/Wednesday (03/06/23, 03/09/23): Midterm and Midterm discussion
 Monday, Wednesday (03/13/23, 03/16/23): RSA
 * References : Textbook Section 3.2
 * Notes: [Lecture 10](/lec10.pdf)
-* Homework: [homework7](/homework7.pdf)(**TYPO: Question 5(a), d should be 11789931.**)
+* Homework: [homework7](/homework7.pdf)
 * Content:
  * An overview of RSA cryptosystem. 
  * If factoring of integers is easy, then RSA is insecure. The reverse is not known. 
@@ -177,7 +177,7 @@ Monday, Wednesday (03/13/23, 03/16/23): RSA
  
 Monday (03/20/23): RSA
 * References : Textbook Section 3.2
-* Notes: [homework7discussion](/homework7discussion.pdf) (**TYPO: Question 5(a), d should be 11789931.**)
+* Notes: [homework7discussion](/homework7discussion.pdf) [working example for Question 5](https://colab.research.google.com/drive/1xU_cEju6sAPyilRHolAWRcFUTkpU397S?usp=sharing)
 * Content:
   * Explore the condition where $gcd(e,p-1)$ is not 1 to the solution to $x^{e}\equiv c \bmod{p}$: either the congruence has no solution or has more than one solution (in particular, $gcd(e,p-1)$ distinct solutions). 
   * Informally, we look at the notion of quadratic residues modulo odd prime $p$. The congruence $x^2 \equiv c \bmod{p}$ has no solution when $c$ is not a quadratic residue modulo $p$ and it has exactly $2$ solutions when $c$ is a quadratic residue modulo $p$. 
