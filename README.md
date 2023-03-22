@@ -200,7 +200,7 @@ Wednesday (03/22/23): Quadratic Residues
     *  Every quadratic residue mod $p$ has exactly two square roots.
     *  The set of quadratic residues $QR_p$ has the same size as the set of quadratic non-residues $QNR_p$. 
     *  An element $x$ is a quadratic residue modulo $p$ if and only if $x^{\frac{p-1}{2}} = 1 \bmod{p}$. 
-    *  Define $J_p(x)$ to be 1 if x is QR and -1 if x is QNR. 
+    *  Define $J_p(x)$ to be 1 if $x$ is QR and -1 if $x$ is QNR. 
     *  We have $J_p(x) = x^{\frac{p-1}{2}}$. 
     *  $J_p$ is mulitplicative: $J_p(xy) = J_p(x)J_p(y)$. 
     *  Product of two quadratic non-residues is a quadratic residue. Product of two quadratic residues is a quadratic residue. Product of a quadratic residue and a quadratic non-residue is a quadratic non-residue. 
