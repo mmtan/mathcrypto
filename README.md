@@ -189,6 +189,25 @@ Monday (03/20/23): RSA
      *  Diffie-Hellman is no harder than Discrete Logarithm. The reverse is true for some groups. 
      *  (Next week) SquareRoot is no harder than Factoring. Factoring is no harder than SquareRoot. Hence, the Factoring and SquareRoot problems are polynomial-time equivalent. 
 
-
+Wednesday (03/22/23): Quadratic Residues
+* References : Textbook Section 3.9
+* Notes: [Lecture 11](/lec11.pdf)
+* Notes: [homework8](/homework8.pdf)
+* Content:
+  * The definitions of quadratic residue (QR) and quadratic non-residue (QNR).
+  * The set of quadratic residues form a subgroup of an abelian group. 
+  * Quadratic residues modulo $p$ where $p$ is odd prime:
+    *  Every quadratic residue mod $p$ has exactly two square roots.
+    *  The set of quadratic residues $QR_p$ has the same size as the set of quadratic non-residues $QNR_p$. 
+    *  An element $x$ is a quadratic residue modulo $p$ if and only if $x^{\frac{p-1}{2}} = 1 \bmod{p}$. 
+    *  Define $J_p(x)$ to be 1 if x is QR and -1 if x is QNR. 
+    *  We have $J_p(x) = x^{\frac{p-1}{2}}$. 
+    *  $J_p$ is mulitplicative: $J_p(xy) = J_p(x)J_p(y)$. 
+    *  Product of two quadratic non-residues is a quadratic residue. Product of two quadratic residues is a quadratic residue. Product of a quadratic residue and a quadratic non-residue is a quadratic non-residue. 
+    *  Algorithm to find if $x$ is a quadratic residue mod $p$. 
+    *  Algorithm to find if square root of a quadratic residue $x$ mod $p$: 
+      - when p is congruent 3 mod 4: the square roots are $x^{\frac{p+1}{4}}, -x^{\frac{p+1}{4}}$. 
+      - when p is congruent 1 mod 4: there is no known deterministic polynomial algorithm to find the square roots. 
+    
     
    
