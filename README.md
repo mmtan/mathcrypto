@@ -145,7 +145,7 @@ Wednesday (02/22/23): Homework 5 discussion
 
 Monday (02/27/23): Homework 6 discussion 
  * References : Textbook Section 3.4
- * Notes: [Homeework 6 Disccusion](/homework6discussion.pdf)
+ * Notes: [Homework 6 Disccusion](/homework6discussion.pdf)
 
 Wednesday (03/01/23): Midterm Q&A
  * Notes: [Midterm Q&A](/midtermQA.pdf)
