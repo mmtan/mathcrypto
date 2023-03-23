@@ -15,6 +15,7 @@ Suggested Reference Books:
 - Introduction to Modern Cryptography by Jonathan Katz and Yehuda Lindell
 
 Syllabus: [spring 2023](/syllabus_spring_2023.md)
+course website: https://mmtan.github.io/mathcrypto/
 
 ---
 
