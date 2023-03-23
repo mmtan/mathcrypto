@@ -191,7 +191,7 @@ Monday (03/20/23): RSA
 Wednesday (03/22/23): Quadratic Residues
 * References : Textbook Section 3.9
 * Notes: [Lecture 11](/lec11.pdf)
-* Notes: [homework8](/homework8.pdf)
+* Homework: [homework8](/homework8.pdf)
 * Content:
   * The definitions of quadratic residue (QR) and quadratic non-residue (QNR).
   * The set of quadratic residues form a subgroup of an abelian group. 
