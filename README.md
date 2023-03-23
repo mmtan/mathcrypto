@@ -131,52 +131,52 @@ Monday (02/20/23): Prime distribution
 
 Wednesday (02/22/23): Homework 5 discussion 
  * References : Textbook Section 3.4
- * Notes: [homeework5disccusion](/homework5discussion.pdf) 
+ * Notes: [Homework 5 Disccusion](/homework5discussion.pdf) 
  * Homework: [Homework 6](/homework6.pdf)
  * Content:
-  * Proof of Pohlig-Hellman algorithm
-  * Checking if an element $g$ is a generator a a group of order $n$ without having to generate $g^i$ for all $i$. Instead check if $g^{n/p} \neq 1$ for each prime divisor $p$ of $n$.
-  * Recap: Fermat's little theorem: If $p$ is prime, then 
-       * for all integers $a$ coprime to $p$, we have $a^{p-1} \equiv 1 \bmod{p}$. 
-       * for all integers $a$, we have $a^p \equiv a \bmod{p}$. 
-  * Recap: A Carmichael number $n$ is a composite integer such that $a^n \equiv a \bmod{n}$ for all $a$. Hence, Fermat little test on input $n$ will output that $n$ is probably prime but $n$ is not a prime. 
-  * Self-practice exercises: Prove that if $n$ is a Carmichael number then $n$ is a product of disctinct primes. 
-  
+   * Proof of Pohlig-Hellman algorithm
+   * Checking if an element $g$ is a generator a a group of order $n$ without having to generate $g^i$ for all $i$. Instead check if $g^{n/p} \neq 1$ for each prime divisor $p$ of $n$.
+   * Recap: Fermat's little theorem: If $p$ is prime, then 
+        * for all integers $a$ coprime to $p$, we have $a^{p-1} \equiv 1 \bmod{p}$. 
+        * for all integers $a$, we have $a^p \equiv a \bmod{p}$. 
+   * Recap: A Carmichael number $n$ is a composite integer such that $a^n \equiv a \bmod{n}$ for all $a$. Hence, Fermat little test on input $n$ will output that $n$ is probably prime but $n$ is not a prime. 
+   * Self-practice exercises: Prove that if $n$ is a Carmichael number then $n$ is a product of disctinct primes. 
+
 
 Monday (02/27/23): Homework 6 discussion 
  * References : Textbook Section 3.4
- * Notes: [homeework6disccusion](/homework6discussion.pdf)
+ * Notes: [Homeework 6 Disccusion](/homework6discussion.pdf)
 
 Wednesday (03/01/23): Midterm Q&A
  * Notes: [Midterm Q&A](/midtermQA.pdf)
 
 Monday/Wednesday (03/06/23, 03/09/23): Midterm and Midterm discussion
-* Notes: [Midterm discussion](/midterm_discussion.pdf)
+* Notes: [Midterm Discussion](/midterm_discussion.pdf)
 * Content:
- * Euler Formula
- * $Z_{pq}^*$ where $p$ and $q$ are odd primes, can't be cyclic. 
- * Integers which are squares can't be a generator. 
+  * Euler Formula
+  * $Z_{pq}^*$ where $p$ and $q$ are odd primes, can't be cyclic. 
+  * Integers which are squares can't be a generator. 
 
 Monday, Wednesday (03/13/23, 03/16/23): RSA
 * References : Textbook Section 3.2
 * Notes: [Lecture 10](/lec10.pdf)
-* Homework: [homework7](/homework7.pdf)
+* Homework: [Homework 7](/homework7.pdf)
 * Content:
- * An overview of RSA cryptosystem. 
- * If factoring of integers is easy, then RSA is insecure. The reverse is not known. 
- * RSA in practice: 
-   * Using Euler formula for encryption and decryption 
-   * Using CHR for encryption and decryption. 
-   * Selecting the encryption and decryption exponenet. 
-     * small decryption exponent leads to brute force attack. 
-     * small encryption eponent wil small message size leads to attack via solving $e$-th root of the ciphtertext over integers, without the modulo $N$. 
-   * Textbook/plain RSA vs Padded RSA. 
-     * Plain RSA is deterministic. This raises security concern. For example, if adversary just need to know if a message sent to Alice is $m$, he/she just need to compare the ciphertext intercepted with the ciphertext $m^e \bmod{N}$ where $(N,e)$ are public key of Alice. 
-     * Padded RSA embed messages in random string before encryption. 
- 
+  * An overview of RSA cryptosystem. 
+  * If factoring of integers is easy, then RSA is insecure. The reverse is not known. 
+  * RSA in practice: 
+    * Using Euler formula for encryption and decryption 
+    * Using CHR for encryption and decryption. 
+    * Selecting the encryption and decryption exponenet. 
+      * small decryption exponent leads to brute force attack. 
+      * small encryption eponent wil small message size leads to attack via solving $e$-th root of the ciphtertext over integers, without the modulo $N$. 
+    * Textbook/plain RSA vs Padded RSA. 
+      * Plain RSA is deterministic. This raises security concern. For example, if adversary just need to know if a message sent to Alice is $m$, he/she just need to compare the ciphertext intercepted with the ciphertext $m^e \bmod{N}$ where $(N,e)$ are public key of Alice. 
+      * Padded RSA embed messages in random string before encryption. 
+
 Monday (03/20/23): RSA
 * References : Textbook Section 3.2
-* Notes: [homework7discussion](/homework7discussion.pdf), [working example for Question 5](https://colab.research.google.com/drive/1xU_cEju6sAPyilRHolAWRcFUTkpU397S?usp=sharing)
+* Notes: [Homework 7 Discussion](/homework7discussion.pdf), [Working Example for Question 5](https://colab.research.google.com/drive/1xU_cEju6sAPyilRHolAWRcFUTkpU397S?usp=sharing)
 * Content:
   * Explore the condition where $gcd(e,p-1)$ is not 1 to the solution to $x^{e}\equiv c \bmod{p}$: either the congruence has no solution or has more than one solution (in particular, $gcd(e,p-1)$ distinct solutions). 
   * Informally, we look at the notion of quadratic residues modulo odd prime $p$. The congruence $x^2 \equiv c \bmod{p}$ has no solution when $c$ is not a quadratic residue modulo $p$ and it has exactly $2$ solutions when $c$ is a quadratic residue modulo $p$. 
@@ -191,7 +191,7 @@ Monday (03/20/23): RSA
 Wednesday (03/22/23): Quadratic Residues
 * References : Textbook Section 3.9
 * Notes: [Lecture 11](/lec11.pdf)
-* Homework: [homework8](/homework8.pdf)
+* Homework: [Homework 8](/homework8.pdf)
 * Content:
   * The definitions of quadratic residue (QR) and quadratic non-residue (QNR).
   * The set of quadratic residues form a subgroup of an abelian group. 
