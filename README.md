@@ -190,9 +190,9 @@ Monday (03/20/23): RSA
      *  Diffie-Hellman is no harder than Discrete Logarithm. The reverse is true for some groups. 
      *  (Next week) SquareRoot is no harder than Factoring. Factoring is no harder than SquareRoot. Hence, the Factoring and SquareRoot problems are polynomial-time equivalent. 
 
-Wednesday (03/22/23): Quadratic Residues
+Wednesday (03/22/23): Quadratic Residues mod P
 * References : Textbook Section 3.9
-* Notes: [Lecture 11](/lec11.pdf)
+* Notes: [Lecture 11a](/lec11a.pdf)
 * Homework: [Homework 8](/homework8.pdf)
 * Content:
   * The definitions of quadratic residue (QR) and quadratic non-residue (QNR).
@@ -209,6 +209,32 @@ Wednesday (03/22/23): Quadratic Residues
     *  Algorithm to find if square root of a quadratic residue $x$ mod $p$: 
       - when p is congruent 3 mod 4: the square roots are $x^{\frac{p+1}{4}}, -x^{\frac{p+1}{4}}$. 
       - when p is congruent 1 mod 4: there is no known deterministic polynomial algorithm to find the square roots. 
+
+Monday (03/27/23): Quadratic Residues mod N
+* References : Textbook Section 3.9
+* Notes: [Lecture 11b](/lec11b.pdf)
+* Content:
+  * Quadratic residues modulo $N$ where $N = pq$ for $p$ and $q$ are distinct primes.
+    *  Every quadratic residue mod $N$ has exactly four square roots.
+    *  The set of quadratic residues $QR_N$ is 1/4 of the size of $Z_N^*$. 
+    *  An element $x$ is a quadratic residue modulo $N$ if and only if $x_p$ is a quadratic residue modulo $p$ and $x_q$ is a quadratic residue modulo $q$. ($x_p = x \bmod{p}$ and $x_q = x \bmod{q}$). 
+    *  Algorithm to find if $x$ is a quadratic residue mod $N$. 
+    *  Algorithm to find if square roots of a quadratic residue $x$ mod $N$: 
+      - compute square roots of $x_p$ and square roots of $x_q$. 
+      - There are two square roots of $x_p$, say $a_1, a_2$, two square roots of $x_q$, say $b_1, b_2$. 
+      - The four square roots of $x$ is $(a_1,b_1), (a_2, b_1), (a_1, b_2), (a_2, b_2)$. These square roots are in $Z_p^* \times Z_q^*$. 
+      - Use Chinese remainder theorem to compute the value of $x_i \in Z_N^*$ such that $x_i = a_i \bmod{p}$ for $i=1,2$. 
+    * If factoring $N$ is easy, then it is easy to compute square roots modulo $N$. 
+    * If computing square root modulo $N$ is easy, then it is easy to factor $N$.  
+    
+Wednesday (03/29/23): Rabin Encryption
+* References : Textbook Section 3.9
+* Notes: [Lecture 11c](/lec11c.pdf)
+* Content:
+  * Rabin Encryption.
+  * Blum Integers. 
+  * Let $N$ be an Blum integer. Then exactly one of the four square roots of a quadratic residue is a quadratic residue. 
+  * In other words, the function $f: QR_N -> QR_N$ where $f(x) = x^2$ is a one to one and onto mapping. 
     
     
    
