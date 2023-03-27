@@ -223,7 +223,7 @@ Monday (03/27/23): Quadratic Residues mod N
       - compute square roots of $x_p$ and square roots of $x_q$. 
       - There are two square roots of $x_p$, say $a_1, a_2$, two square roots of $x_q$, say $b_1, b_2$. 
       - The four square roots of $x$ is $(a_1,b_1), (a_2, b_1), (a_1, b_2), (a_2, b_2)$. These square roots are in $Z_p^* \times Z_q^*$. 
-      - Use Chinese remainder theorem to compute the value of $x_i \in Z_N^*$ such that $x_i = a_i \bmod{p}$ for $i=1,2$. 
+      - Use Chinese remainder theorem to compute the value of $x_i \in Z_N^*$ such that $x_i = a_i \bmod{p}$ and $x_i = b_i \bmod{q}$ for $i=1,2$. 
     * If factoring $N$ is easy, then it is easy to compute square roots modulo $N$. 
     * If computing square root modulo $N$ is easy, then it is easy to factor $N$.  
     
