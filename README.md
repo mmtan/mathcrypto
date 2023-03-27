@@ -230,6 +230,7 @@ Monday (03/27/23): Quadratic Residues mod N
 Wednesday (03/29/23): Rabin Encryption
 * References : Textbook Section 3.9
 * Notes: [Lecture 11c](/lec11c.pdf)
+* Homework: [Homework 9](/homework9.pdf)
 * Content:
   * Rabin Encryption.
   * Blum Integers. 
