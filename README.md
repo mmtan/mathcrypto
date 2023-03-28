@@ -238,6 +238,6 @@ Wednesday (03/29/23): Rabin Encryption
   * In other words, the function $f: QR_N -> QR_N$ where $f(x) = x^2$ is a one to one and onto mapping. 
     
 Monday (04/**/23): Homework 9 Discussion
-* Homework: [Homework 9 Discussion](/homework9discussion.pdf) [Working Example for Question 1 and Question 3](TBA)
+* Homework: [Homework 9 Discussion](/homework9discussion.pdf), [Working Example for Question 1 and Question 3](TBA)
 * Content:
   * 
