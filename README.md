@@ -237,5 +237,7 @@ Wednesday (03/29/23): Rabin Encryption
   * Let $N$ be an Blum integer. Then exactly one of the four square roots of a quadratic residue is a quadratic residue. 
   * In other words, the function $f: QR_N -> QR_N$ where $f(x) = x^2$ is a one to one and onto mapping. 
     
-    
-   
+Monday (04/**/23): Homework 9 Discussion
+* Homework: [Homework 9 Discussion](/homework9discussion.pdf) [Working Example for Question 1 and Question 3](TBA)
+* Content:
+  * 
