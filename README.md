@@ -229,15 +229,33 @@ Monday (03/27/23): Quadratic Residues mod N
     
 Wednesday (03/29/23): Rabin Encryption
 * References : Textbook Section 3.9
-* Notes: [Lecture 11c](/lec11c.pdf)
+* Notes: [Lecture 12](/lec12.pdf)
 * Homework: [Homework 9](/homework9.pdf)
 * Content:
-  * Rabin Encryption.
-  * Blum Integers. 
+  * Rabin Encryption. 
+  * Rabin vs RSA. 
+    * Encryption is faster in Rabin. 
+    * Hardness assumption of Rabin is guaranteed with the hardness of factoring integer. 
+    * On the other hand, if factoring is hard, it doesn't mean that RSA problem is hard. 
+    * There are four square roots. Hence, extra information is required to find the original message. 
+    * Just like RSA, Rabin is deterministic. Hence, an adversary that just need to distinguish two different messages can just compare the ciphertexts.
+  * An integer $N$ is called a Blum integer when $N = pq$ where $p \equiv q \equiv 3 \bmod{4}$.  
+  * Recall that it is easy to compute the square roots of $x$ modulo $N$ if $N$ is a Blum integer because it is easy to compute a square root of $x$ mod $p$ when $p \equiv 3 \bmod{4}$. 
   * Let $N$ be an Blum integer. Then exactly one of the four square roots of a quadratic residue is a quadratic residue. 
-  * In other words, the function $f: QR_N -> QR_N$ where $f(x) = x^2$ is a one to one and onto mapping. 
+  * In other words, the function $f: QR_N -> QR_N$ where $f(x) = x^2$ is a one to one and onto mapping.
+  * Application: Let $N$ be a Blum integer. If plaintext $m \in QR_N$, then one can recover plaintext from the ciphertext in Rabin encryption scheme
+ by checking which of the four square roots is a quadratic residue.
+ * However, note that if the plaintext $m$ is not a quadratic residues, then Rabin encryption scheme still gives four potential plaintexts even when $N$ is a Blum integer.
+ * Other methods for ensuring one to one mapping between plaintext and ciphertext of Rabin: 
+   *  Pad messages with $l$ bits of 1's.
+   *  Ciphertext is $(c, J_N(m), half)$ where $c = m^2 \bmod{N}$, $J_N(m) = J_p(m)J_q(m)$ and half is 1 if $m<\frac{N}{2}$, 0 otherwise. 
+ * Elgamal Encryption is a probabilistic public key cryptostem. The same message can be encrypted to two different ciphertexts. 
+ * Elgamal gives 2 to 1 message expansion. That is two times the bits are required to represent the ciphertext than plaintext.
+ * If DLP is easy, then we can break Elgamal. 
+ * If DHP is easy, then we can break Elgamal. 
+  
     
-Monday (04/**/23): Homework 9 Discussion
+Monday (04/10/23): Homework 9 Discussion
 * Homework: [Homework 9 Discussion](/homework9discussion.pdf), [Working Example for Question 1 and Question 3](TBA)
 * Content:
   * 
