@@ -255,7 +255,15 @@ Wednesday (03/29/23): Rabin Encryption
  * If DHP is easy, then we can break Elgamal. 
   
     
-Monday (04/10/23): Homework 9 Discussion
-* Homework: [Homework 9 Discussion](/homework9discussion.pdf), [Working Example for Question 1 and Question 3](TBA)
+Monday, Wednesday (04/10/23, 04/12/23): Homework 9 Discussion and Digital Signature Scheme
+* Homework: [Homework 9 Discussion](/homework9discussion.pdf), [Working Example for Question 1](https://colab.research.google.com/drive/12V1vrB62BXeFLzj_VQS9cTf6mw_kicIK?usp=sharing)
+* Homework: [Homework 10](/homework10.pdf)
 * Content:
-  * 
+  * Man in the middle attack of Diffie-Hellman Exchange Scheme
+  * Digital Signature Scheme (Oversimplified version)
+
+Monday (04/17/23): 
+* Homework: 
+* Content:
+  * Cryptographic hash function 
+  * Birthday Paradox
