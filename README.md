@@ -264,7 +264,17 @@ Monday, Wednesday (04/10/23, 04/12/23): Homework 9 Discussion and Digital Signat
   * Digital Signature Scheme (Oversimplified version)
 
 Monday (04/17/23): 
-* Homework: 
 * Content:
   * Cryptographic hash function 
+     * Properties: One way, collison resistance
   * Birthday Paradox
+     * It is harder to construct a collision resistance hash function compared to a one way hash function.
+
+Wednesday (04/19/23): 
+* Homework: [Homework 11](/homework11.pdf)
+* Content: 
+  * Pollard rho's collision algorithm to solve discrete logarithm problem 
+  * Pollard rho's collison algorithm to factor $N = pq$ where $p$, $q$ are primes. 
+  
+ 
+ 
