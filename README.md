@@ -271,7 +271,7 @@ Monday (04/17/23):
      * It is harder to construct a collision resistance hash function compared to a one way hash function.
 
 Wednesday (04/19/23): 
-* Homework: [Homework 11](/homework11.pdf)
+* Homework: [Homework 11](/homework11.pdf) (working example in Collab)[TBA]
 * Content: 
   * Pollard rho's collision algorithm to solve discrete logarithm problem 
   * Pollard rho's collison algorithm to factor $N = pq$ where $p$, $q$ are primes. 
