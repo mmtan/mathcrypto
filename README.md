@@ -272,11 +272,25 @@ Monday (04/17/23):
      * It is harder to construct a collision resistance hash function compared to a one way hash function.
 
 Wednesday (04/19/23): 
-* Homework: [Homework 11](/homework11.pdf) (working example in Collab)[https://colab.research.google.com/drive/1w6r4hEjx8_3w6HkZ11ugKeFVAX-6pnoM?usp=sharing]
+* Homework: [Homework 11](/homework11.pdf) [working example in Collab](https://colab.research.google.com/drive/1w6r4hEjx8_3w6HkZ11ugKeFVAX-6pnoM?usp=sharing)
 * Notes: [Lecture 14](/lec14.pdf)
 * Content: 
   * Pollard rho's collision algorithm to solve discrete logarithm problem 
   * Pollard rho's collison algorithm to factor $N = pq$ where $p$, $q$ are primes. 
+
+Monday (04/24/23): 
+* Homework: [Homework 12](/homework12.pdf)
+* Notes: [Lecture 15](/lec15.pdf)
+* Content: 
+  * Ring and Field
+  * Polynomial Ring
+  * Finite Field
+    * There exists finite field of prime power order. 
+    * Every finite field is of prime power order. 
+    * All finite fields of the same order are isomorphic. 
+  * Construction of finite field of order $p^d$ by taking the set of polynomials, mod a prime p and mod an irreducible polynomial of degree $d$. 
+  * If F is a finite field, $F\setminus \{0\}$ is cyclic multiplicative group. 
+  
   
  
  
