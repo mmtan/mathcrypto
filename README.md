@@ -230,7 +230,7 @@ Monday (03/27/23): Quadratic Residues mod N
     * If computing square root modulo $N$ is easy, then it is easy to factor $N$.  
     
 Wednesday (03/29/23): Rabin Encryption
-* References : Textbook Section 3.9
+* References : Textbook Section 3.10
 * Notes: [Lecture 12](/lec12.pdf)
 * Homework: [Homework 9](/homework9.pdf)
 * Content:
@@ -258,6 +258,7 @@ Wednesday (03/29/23): Rabin Encryption
   
     
 Monday, Wednesday (04/10/23, 04/12/23): Homework 9 Discussion and Digital Signature Scheme
+* References : Textbook Section 4.2, 4.3
 * Homework: [Homework 9 Discussion](/homework9discussion.pdf), [Working Example for Question 1](https://colab.research.google.com/drive/12V1vrB62BXeFLzj_VQS9cTf6mw_kicIK?usp=sharing)
 * Homework: [Homework 10](/homework10.pdf), [working example for Question 3](https://colab.research.google.com/drive/1XQJqK6GZl8C_3IVle-mnKEvKAOaZOKo9?usp=sharing)
 * Notes: [Lecture 13](/lec13.pdf)
@@ -266,6 +267,7 @@ Monday, Wednesday (04/10/23, 04/12/23): Homework 9 Discussion and Digital Signat
   * Digital Signature Scheme (Oversimplified version)
 
 Monday (04/17/23): 
+* References : Textbook Section 5.4
 * Notes: [Lecture 13](/lec13.pdf)
 * Content:
   * Cryptographic hash function (Oversimplified version)
@@ -274,6 +276,7 @@ Monday (04/17/23):
      * It is harder to construct a collision resistance hash function compared to a one way hash function.
 
 Wednesday (04/19/23): 
+* References : Textbook Section 6.5
 * Homework: [Homework 11](/homework11.pdf), [working example for Question 3](https://colab.research.google.com/drive/1w6r4hEjx8_3w6HkZ11ugKeFVAX-6pnoM?usp=sharing)
 * Notes: [Lecture 14](/lec14.pdf)
 * Content: 
@@ -281,7 +284,7 @@ Wednesday (04/19/23):
   * Pollard rho's collison algorithm to factor $N = pq$ where $p$, $q$ are primes. 
 
 Monday (04/24/23): 
-* Homework: [Homework 12](/homework12.pdf)
+* References : Textbook Section 2.10
 * Notes: [Lecture 15](/lec15.pdf)
 * Content: 
   * Ring and Field
@@ -292,6 +295,14 @@ Monday (04/24/23):
     * All finite fields of the same order are isomorphic. 
   * Construction of finite field of order $p^d$ by taking the set of polynomials, mod a prime p and mod an irreducible polynomial of degree $d$. 
   * If F is a finite field, $F\setminus \{0\}$ is cyclic multiplicative group. 
+
+Wednesday (04/26/23): 
+* References : Textbook Section 8.4
+* Homework: [Homework 12](/homework12.pdf)
+* Notes: [Lecture 16](/lec16.pdf)
+* Content: 
+  * Lagrange Interpolation 
+  * Shamir secret sharing scheme. 
   
   
  
