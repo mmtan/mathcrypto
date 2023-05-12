@@ -306,6 +306,7 @@ Wednesday (04/26/23):
   
 Monday (05/01/23): 
 * Homework: [Homework 12 discussion](/homework12solution.pdf)
+* Final Exam: [Final Exam](/finalexam.pdf)
   
  
  
