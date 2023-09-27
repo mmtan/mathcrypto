@@ -1,5 +1,5 @@
 # Mathematics Foundation of Cryptography
-Course website for Math Foundation of Cryptography
+Course [website](https://mmtan.github.io/mathcrypto/) for Math Foundation of Cryptography
 
 **These documents are not to be sold, published, or distributed without the author's consent.**
 
